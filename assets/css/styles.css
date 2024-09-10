@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/********************************************/
+body{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 59px;
+    padding: 7px;     
+
+    /*border:1px solid rgb(190, 236, 81)*/
+}
+
+/************************ Texto e Imagen ****************************/
+
+/**** Seccion Padre ****/
+.boxtextimg{
+    display: flex;
+    gap: 106px; 
+    justify-content: center;
+        
+    /*border:1px solid green*/
+}
+
+/****** article Hijo texto *******/
+.boxtitext {
+    width: 25%;
+    margin-top: 76px;
+    margin-bottom: 75px;
+    text-align: left;
+    color: #FFFFFF;
+    
+    /*border: 1px solid orange;*/
+}
+
+/****** article Hijo imagen *******/
+.boxtiimg {
+    width: 25%;
+    margin-top: 45px;
+    margin-bottom: 66px;
+
+    /*border: 1px solid blue;*/
+}
+
+.boxtiimg > img {
+    width: 100%;
+    background: transparent;
+}
+
+/***************** Carcateristicas manejadas con Seccion ************************/
+.caracteristicas {
+    background-color:#1E1A13;
+    padding: 75px;
+            
+    /*border: 1px solid rgb(107, 2, 121);*/
+}
+
+h2 {
+    font-size: 49px;
+    
+    /*border:1px solid rgb(190, 236, 81)*/
+}
+
+.flexcaracte {
+    display: flex;
+    gap: 255px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+    
+    /*border: 1px solid pink;*/
+}
+
+.fcard > i {
+    background: transparent;
+    color: white;
+
+    /*border: 1px solid rgb(250, 247, 74);*/
+}
+
+.fcard >i:hover {
+    color: goldenrod
+}
+
+.fcard >p {
+    margin-top: 16px;
+    
+    font-size: 30px;
+    color: #FFFFFF;
+    
+    /*border: 1px solid rgb(192, 255, 231);*/
+}
+
+/**************** Imagenes manejadas con flexbox **************************/
+.boximg{
+    display: flex;
+    padding: 73px ;
+    gap: 16px; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    
+    /*border:1px solid green*/
+}
+
+.box {
+    width: 25%; 
+
+    /*border:1px solid red*/
+}
+
+.box > img {
+    width: 100%;
+    min-height: 100%;
+
+    /*border:1px solid rgb(76, 0, 255)*/
+}
+
+/****************Footer**********/
+.piepagina {
+    background-color: #1E1A13;
+    padding: 39px;
+
+    /*border:1px solid rgb(190, 236, 81)*/
+}
+
+.piepagina > p {
+    font-size: 23px;
+    letter-spacing: 0px;
+    color: white;
+}
+
+a {
+    color: white;
+}
